@@ -1,0 +1,15 @@
+FSDataInputStream 
+FSDataInputStream is used for reading data. 
+
+FSDataOutputStream 
+Provides stream (channel) for writing data. 
+
+DFSOutputStream 
+It is called internally by FSDataOutputStream.
+Handles communication of the namenode with various datanodes. 
+
+DFSInputStream
+Handles communication of the namenode with various datanodes.
+Handles integrity of data contained by the blocks. 
+Manages data read activity in case of datanode failure.
+Called internally by FSDataInputStream. 
